@@ -79,8 +79,7 @@ Athena também oferece campos para anotações importantes como controle de falt
 Acompanhamento do desenvolvimento da equipe durante a sprint:
 
 
-
-C:\Users\Famil\Downloads\WhatsApp Image 2021-03-27 at 17.40.54.jpeg
+https://user-images.githubusercontent.com/74839828/112736166-59566080-8f2f-11eb-9876-e08cff6b4d10.jpg
 
 ## Tecnologias utilizadas ##
 
