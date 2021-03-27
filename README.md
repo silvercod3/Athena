@@ -1,7 +1,7 @@
 ## Projeto
 
-Athena é a nossa assistente pessoal com foco em melhorar a efetividade dos estudos. Nós a fizemos pensando em estudantes no geral, sendo pessoas que estão no ensino médio, faculdade, se preparando para Enem, concursos etc.
-Ela irá ajudar na organização e otimização do tempo, com dicas e planejamento dos estudos.
+Athena é a nossa assistente pessoal com foco em melhorar a efetividade dos estudos. Nós a fizemos pensando em estudantes no geral, sendo pessoas que estão no ensino médio, faculdade, se preparando para Enem, concursos etc.  
+Ela irá ajudar na organização e otimização do tempo, com dicas e planejamento dos estudos. 
 Athena também oferece campos para anotações importantes como controle de faltas, cálculo de médias e um calendário acadêmico, com objetivo em promover completo suporte à vida acadêmica do usuário.
 
 ## Time
@@ -80,7 +80,7 @@ Acompanhamento do desenvolvimento da equipe durante a sprint:
 
 
 
-https://github.com/silvercod3/bd1fatec-athena/issues/1#issue-842611376
+C:\Users\Famil\Downloads\WhatsApp Image 2021-03-27 at 17.40.54.jpeg
 
 ## Tecnologias utilizadas ##
 
