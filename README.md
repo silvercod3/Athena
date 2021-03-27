@@ -27,6 +27,7 @@ Athena também oferece campos para anotações importantes como controle de falt
 ## Backlog
 
 **Deadline Sprint 1 - 28/03**
+
 **Coisas a Fazer:**
 
 **Até 25/03**
@@ -42,6 +43,7 @@ Athena também oferece campos para anotações importantes como controle de falt
 * Juntar cálculo de média com entrada e saída de voz e texto: Igor.
 
 **Deadline Sprint 2 - 18/04**
+
 **Coisas a Fazer:**
 
 **Até 06/04**
