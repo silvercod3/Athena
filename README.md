@@ -80,7 +80,7 @@ Acompanhamento do desenvolvimento da equipe durante a sprint:
 
 
 
-C:\Users\Famil\Downloads\WhatsApp Image 2021-03-27 at 17.40.54.jpeg
+https://github.com/silvercod3/bd1fatec-athena/issues/1#issue-842611376
 
 ## Tecnologias utilizadas ##
 
