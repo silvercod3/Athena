@@ -78,7 +78,7 @@ Acompanhamento do desenvolvimento da equipe durante a sprint:
 
 
 
-![WhatsApp Image 2021-03-27 at 17.40.54](C:\Users\Famil\Downloads\WhatsApp Image 2021-03-27 at 17.40.54.jpeg)
+C:\Users\Famil\Downloads\WhatsApp Image 2021-03-27 at 17.40.54.jpeg
 
 ## Tecnologias utilizadas ##
 
