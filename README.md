@@ -71,18 +71,18 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
   Dicas de como melhorar os estudos, concentração e absorção do conteúdo.
 
 ## BackLog
-
-![01](https://user-images.githubusercontent.com/74839828/115131973-b4c9ba80-9fd2-11eb-984c-9fc29aa03394.jpg)
-
-![02](https://user-images.githubusercontent.com/74839828/115132001-db87f100-9fd2-11eb-8acc-4e2ad0e2b94c.jpg)
-
-![03](https://user-images.githubusercontent.com/74839828/115132040-1722bb00-9fd3-11eb-96f8-cf7258028ef4.jpg)
-
-![04](https://user-images.githubusercontent.com/74839828/115132049-20ac2300-9fd3-11eb-831e-719e6684be39.jpg)
+![06](https://user-images.githubusercontent.com/74839828/115132060-315c9900-9fd3-11eb-8f78-f168d9d02d60.jpg)
 
 ![05](https://user-images.githubusercontent.com/74839828/115132056-2a358b00-9fd3-11eb-971a-ab7171b08c87.jpg)
 
-![06](https://user-images.githubusercontent.com/74839828/115132060-315c9900-9fd3-11eb-8f78-f168d9d02d60.jpg)
+![04](https://user-images.githubusercontent.com/74839828/115132049-20ac2300-9fd3-11eb-831e-719e6684be39.jpg)
+
+![03](https://user-images.githubusercontent.com/74839828/115132040-1722bb00-9fd3-11eb-96f8-cf7258028ef4.jpg)
+
+![02](https://user-images.githubusercontent.com/74839828/115132001-db87f100-9fd2-11eb-8acc-4e2ad0e2b94c.jpg)
+
+![01](https://user-images.githubusercontent.com/74839828/115131973-b4c9ba80-9fd2-11eb-984c-9fc29aa03394.jpg)
+
 
 ## Burndown
 
