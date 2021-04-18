@@ -1,17 +1,30 @@
 import speech_recognition as sr
-import pyttsx3
-import inits
+import playsound
+from gtts import gTTS
 import random
 import time
+import os
+import pyttsx3
+import config
 from tkinter import *
 from pyttsx3.drivers import sapi5
 
-engine = pyttsx3.init()
-r = sr.Recognizer()
-errors = random.choice(inits.lista_erros)
+error = random.choice(config.lista_erros)
 
 
 class person:
+    name = ''
+
+    def setName(self, name):
+        self.name = name
+        # speak('Olá, quem está falando ?')
+        # name = record_audio().split(" ")
+        # new_name = name[0]
+        # with open("nomes.txt","a") as arqv:
+        #     arqv.write(new_name)
+
+
+class asis:
     name = ''
 
     def setName(self, name):
@@ -32,30 +45,68 @@ def speak(text):
     engine.runAndWait()
 
 
+r = sr.Recognizer()  # initialise a recogniser
+
+
+# listen for audio and convert it to text:
+def record_audio(ask=""):
+    try:
+        with sr.Microphone() as source:
+            if ask:
+                speak(ask)
+            audio = r.listen(source, 5, 5)
+            r.adjust_for_ambient_noise(source, duration=1)
+            voice_data = ''
+            try:
+                voice_data = r.recognize_google(audio, language='pt-BR')
+            except sr.UnknownValueError:
+                speak(error)
+            except sr.RequestError:
+                speak('Desculpe, serviço indisponível no momento')
+            except sr.WaitTimeoutError:
+                print('Serviço indisponível no momento, tente novamente !')
+            print(">>", voice_data.lower())
+            return voice_data.lower()
+    except Exception:
+        speak('não escutei a sua voz, por favor tente novamente !')
+
+
+def speak(audio_string):
+    audio_string = str(audio_string)
+    tts = gTTS(text=audio_string, lang='pt')
+    r = random.randint(1, 20000000)
+    audio_file = 'audio' + str(r) + '.mp3'
+    tts.save(audio_file)
+    playsound.playsound(audio_file)
+    print(asis_obj.name + ":", audio_string)
+    os.remove(audio_file)
+
+
 def respond(voice_data):
     if there_exists(['oi', 'olá', 'prazer']):
         greetings = [f"olá, como posso te ajudar {person_obj.name}",
                      f"olá, tudo bem ? {person_obj.name}", f"estou ouvindo {person_obj.name}",
-                     f"como eu posso te ajudar? {person_obj.name}", f"olá {person_obj.name}"]
-        greet = greetings[random.randint(0, len(greetings)-1)]
+                     f"como eu posso te ajudar {person_obj.name} ?", f"olá {person_obj.name}"]
+        greet = greetings[random.randint(0, len(greetings) - 1)]
         speak(greet)
 
-    if there_exists(["qual é o seu nome", "qual seu nome", "me diga seu nome", "qual é seu nome", "seu nome"]):
+    if there_exists(["qual é o seu nome", "qual é teu nome", "me diga seu nome", "qual é seu nome", "seu nome",
+                     "teu nome"]):
         if person_obj.name:
-            speak("meu nome é Athena")
+            speak(f"meu nome é {asis_obj.name}, muito prazer {person_obj.name}")
         else:
             speak("meu nome é Athena. E como você se chama?")
 
-    if there_exists(["meu nome é"]):
-        person_name = voice_data.split("é")[-1].strip()
-        speak(f"certo, eu me lembro de você {person_name}")
+    if there_exists(["meu nome é", "eu me chamo", "sou a", "sou o", "me chamo", "é o", "é a"]):
+        person_name = voice_data.split(" ")[-1].strip()
+        speak(f"Como eu posso te ajudar, {person_name}")
         person_obj.setName(person_name)
 
     if there_exists(["como você está", "tudo bem com você", "tudo bem"]):
-        speak(f"Estou muito bem, obrigado por perguntar {person_obj.name}")
+        speak(f"Estou muito bem, obrigado por perguntar,  {person_obj.name}")
 
     if there_exists(["calcule a média", "media", "média"]):
-        speak("Por favor, digite os valores para calcular sua média")
+        speak("Por favor, digite os valores no arquivo que irá abrir, para calcular sua média")
         janela = Tk()
 
         def bt_click():
@@ -64,7 +115,7 @@ def respond(voice_data):
                 num1 = int(ed1.get())
                 num2 = int(ed2.get())
 
-                lb['text'] = (num1+num2) / 2
+                lb['text'] = (num1 + num2) / 2
             else:
                 lb['text'] = 'Valores informados são inválidos'
                 speak(lb['text'])
@@ -87,29 +138,108 @@ def respond(voice_data):
         janela.mainloop()
 
     if there_exists(["que horas são", "horário", "qual hora", "que horas"]):
-        speak(inits.SystemInfo.get_time())
+        speak(config.SystemInfo.get_time())
 
+    if there_exists(["que dia é hoje", "data de hoje", "qual dia é hoje"]):
+        speak(config.SystemInfo.get_date())
 
-def sound_input(ask=False):
-    with sr.Microphone() as source:
-        if ask:
-            speak(ask)
-        audio = r.listen(source)
-        voice_data = ''
+    if there_exists(["athena agendar data", "agende uma data", "marque uma prova", "marque um trabalho"
+                        , "agende uma prova", "agende um trabalho", "marcar trabalho"]):
+        with open("date_save.csv", "a") as arquivo:
+            speak("Qual o Título do evento ?")
+            x = record_audio()
+            while True:
+                try:
+                    speak(f"ok, qual é o dia e o mês do evento ?")
+                    date_event = record_audio()
+                    speak(
+                        f"Ok, voce agendou um '{x}' para o dia {int(date_event.split()[0])} do {int(date_event.split()[2])} ")
+                    break
+                except ValueError:
+                    speak(f"Não entendi muito bem ,poderia repetir por gentileza")
+                    time.sleep(1)
+                    continue
+                except IndexError:
+                    speak(f"Não entendi muito bem ,poderia repetir por gentileza")
+                    time.sleep(1)
+                    continue
+            arquivo.write(
+                f"Título: '{x}' para o dia {int(date_event.split()[0])}/{int(date_event.split()[2])} \n")
+    if there_exists(["cadastrar matéria", "nova matérica", "nova materia", "cadastrar aula"]):
         try:
-            voice_data = r.recognize_google(audio, language="pt")
-        except sr.UnknownValueError:
-            speak(errors)
-        except sr.RequestError:
-            speak('Desculpe, o serviço está fora do ar')
-        print(f">> {voice_data.lower()}")
-        return voice_data.lower()
+            semana = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "sábado"]
+            materias = []
+            dias_semana = []
+            horario_materia = []
+
+            try:
+                while True:
+                    speak("Para qual dia da semana ?")
+                    semana_dia = record_audio().strip().split()[0]
+                    if semana_dia not in semana:
+                        speak('Não encontrei esse dia no meu banco de dados, repita por gentileza')
+                        continue
+                    if semana_dia != "sabado":
+                        x = semana_dia + "-feira"
+                        dias_semana.append(x)
+                    else:
+                        dias_semana.append(semana_dia)
+                    speak('Gostaria de cadastrar um novo dia da semana ? ')
+                    resp = record_audio().strip().upper()[0]
+                    if resp == "S":
+                        continue
+                    if resp == "N":
+                        break
+            except ValueError:
+                speak('Deu erro aqui, fala de novo por favor')
+            for posi, c in enumerate(dias_semana):
+                while True:
+                    try:
+                        speak(
+                            f'Qual matéria gostaria de cadastrar para "{dias_semana[posi]}" ? ')
+                        materia = record_audio().strip().lower()
+                        materias.append(materia)
+                        speak(f'Gostaria de cadastrar uma nova matéria para "{dias_semana[posi]}" ? ')
+                        resp = record_audio().upper().strip()[0]
+                        if resp == "S":
+                            continue
+                        if resp == "N":
+                            for pos, c in enumerate(materias):
+                                speak(f'Quando começa a aula da matéria: "{materias[pos]}"  ? ')
+                                horario_inicial = record_audio().strip().replace(" ", ":").replace(" e ", ":")
+                                speak(f'Quando termina a aula da matéria: "{materias[pos]}"  ? ')
+                                horario_final = record_audio().strip().replace(" ", ":").replace(" e ", ":")
+                                horario_materia.append(f"{horario_inicial}-{horario_final}")
+                                try:
+                                    with open("aulas.txt", "a") as arquivo:
+                                        arquivo.write(f'Dia: {dias_semana[posi]} '
+                                                      f'Aulas: {materias[pos]} = horario: {horario_materia[pos]} \n')
+                                except Exception as error:
+                                    print('>> Arquivo não encontrado, tente novamente !')
+                                    print(error)
+                            materias.clear()
+                            speak('Dados salvos')
+                            exit()
+                    except Exception as error:
+                        print('>> Encontramos algum erro, por gentileza tente novamente')
+                        print(error)
+                    break
+
+        except Exception as errorr:
+            print(errorr)
 
 
-time.sleep(1)
+if __name__ == '__main__':
+    time.sleep(1)
 
-person_obj = person()
-inits.intro()
-while 1:
-    voice_data = sound_input()
-    respond(voice_data)
+    config.intro()
+    config.email()
+    asis_obj = asis()
+    asis_obj.name = 'Athena'
+    person_obj = person()
+    speak("Olá tudo bem ? Quem está falando comigo ?")
+    person_obj.name = ""
+    engine = pyttsx3.init()
+    while 1:
+        voice_data = record_audio()  # get the voice input
+        respond(voice_data)  # respond
