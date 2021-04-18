@@ -36,7 +36,7 @@ Guilherme Rodolfo ([Linkedin](https://www.linkedin.com/in/guilherme-rodolfo-5686
 
 Igor Ribeiro ([Linkedin](https://www.linkedin.com/in/igor-ribeiro-8571a6210/), [Github](https://github.com/IgorRibeiro-S)) 
 
-Joice Elen (Linkedin, [Github](https://github.com/jojoka1))
+Joice Elen ([Linkedin](https://www.linkedin.com/in/joice-elen-2a6309207/), [Github](https://github.com/jojoka1))
 
 Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
 
