@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - J.A.R.V.I.S  RE2</title>
+  <!--codepen head-->
+     <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>J.A.R.V.I.S</title>
+  <link rel="stylesheet" href="">
+    
+  <style type="text/css">
+  body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:'Helvetica', sans-serif;
+  }
+  </style>
+    
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+    
+  <!-- head end -->
+    
+    <link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+  
+  <p hidden id="Load_1" onclick="LoadAll()">Load I'm hidden</p>
+  
+<!-- Left Menu -->
+<div id="leftmenu">
+  
+  <div id="date_time" onload="LoadAll()">
+    <div class="semi_arc e4">
+      <div class="semi_arc_2 e4_1">
+        <div class="counterspin4"></div>
+      </div>
+      
+        <div style="font-size: 40px; margin-top: 25px;" id="Date" onclick="GetDay()">04</div>
+        <div style="font-size: 25px;"id="Month" onclick="GetMonth()">January</div>
+    </div>
+    <p hidden onclick="start()">start</p>
+    <div class="arc e1">
+        <div style="font-size: 23px; margin-left: -15px; margin-top: 23px;" id="Time" onclick="GetTime()">12:00</div>
+        <div style="font-size: 15px; margin-left: 65px; margin-top: -25px; display; inline;" id="Seconds" onclick="GetSeconds()">31</div>
+        <div style="font-size: 17px; margin-top: 3px;" id="Day" onclick="GetDate()">Tuesday</div>
+    </div>
+  </div>
+  
+  <p class="title" onclick="LoadPrefs()" id="Performance">Performance</p>
+  <div class="hline title_underline"></div>
+  
+  <span class="menuitem entypo-gauge" style="font-size: 30px; margin-left: 10px;">
+    <p id="cpu" class="caption" style="font-size: 20px;" id="cpu" onclick="CPULoad()">CPU Usage: 19%</p>
+  </span> <br/>
+  
+  <span class="menuitem entypo-chart-area" style="font-size: 30px; margin-left: 10px;">
+    <p id="ram" class="caption" style="font-size: 20px;" id="ram" onclick="RAMGen()">Physical Memory: 28%</p>
+  </span> <br/>
+  
+  <span class="menuitem entypo-chart-pie" style="font-size: 30px; margin-left: 10px;">
+    <p id="proc" class="caption" style="font-size: 20px;" onclick="ProssessGen()">Processes: 73</p>
+  </span>
+  
+  <p class="title">Shortcuts</p>
+  <div class="hline title_underline"></div> 
+  
+  <div class="menu">
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="User">User</p> </button>
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="Documents">Documents</p> </button>
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="Computer">Computer</p> </button>
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="Control_Panel">Control Panel</p> </button>
+    
+    <hr style="border-color: transparent; margin: 0;"/>
+    <div class="hline" style="margin-top: 5px; margin-bottom: 5px;"></div>
+    
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="Downloads" onclick="openDownloads()">Downloads</p> </button>
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" id="Custom_Path_2" onclick="openCustomPath2()">Custom Path 2</p> </button>
+    <button class="menuitem"> <span class="entypo-right-open"/> <p class="caption" onclick="openCustomPath3()" id="Custom_Path_3">Custom Path 3</p> </button>
+  </div>
+  
+  <p class="title" onclick="hi()">Social</p>
+  <div class="hline title_underline"></div>
+  
+  <div class="app_icon entypo-facebook-squared"></div>
+  <div class="app_icon entypo-twitter"></div>
+  <div class="app_icon entypo-gplus"></div>
+  <div class="app_icon entypo-skype"></div>
+  
+  <div class="app_icon entypo-tumblr"></div>
+  <div class="app_icon entypo-pinterest"></div>
+  <div class="app_icon entypo-soundcloud"></div>
+  <div class="app_icon entypo-stumbleupon"></div>
+  
+</div>
+
+
+<!-- Right Menu -->
+<div id="rightmenu">
+  <p class="title" style="text-align: left; margin-left: 10px;" onclick="ClearNotes()" id="Notes">Notes</p>
+  <div id="particle10" class="hline"></div>
+  <div id="particle11" class="hline"></div>
+  <div id="particle12" class="vline"></div>
+  <textarea id="note_input_2" rows="12" cols="44">
+    First pad
+    To update time and date please click "▶" to the left of the time and date thanks
+  
+  </textarea>
+  <div id="particle10" class="hline"></div>
+  <div id="particle11" class="hline"></div>
+  <div id="particle12" class="vline"></div>
+  
+  
+  
+  <textarea id="note_input_1" rows="12" cols="44">
+    Click on performance or on any of the sub menu items so that you can update it.Click "notes" to cleare the teXt area
+  
+  </textarea>
+</div>
+
+
+
+<!-- Arc Reactor -->
+<div id="arc_container" onclick="ArkClick()">
+  <div class="arc_reactor">
+    <div class="case_container">
+      <div class="e7">
+        <div class="semi_arc_3 e5_1">
+          <div class="semi_arc_3 e5_2">
+            <div class="semi_arc_3 e5_3">
+              <div class="semi_arc_3 e5_4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="core2"></div>
+      </div>
+      <ul class="marks">
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Particles -->
+<!-- Left Menu Particles -->
+<canvas id="particle1" width="20" height="500"></canvas> <script>
+var canvas = document.getElementById('particle1');
+var context = canvas.getContext('2d');
+
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(0, 70);
+context.lineTo(10, 85);
+context.lineTo(10, 135);
+context.lineTo(0, 150);
+context.lineTo(0, 480);
+context.lineTo(5, 490);
+context.lineTo(10, 490);
+context.lineTo(20, 490);
+context.lineTo(20, 250);
+context.lineTo(10, 235);
+context.lineTo(10, 185);
+context.lineTo(20, 170);
+context.lineTo(20, 40);
+context.lineTo(10, 30);
+context.lineTo(10, 20);
+
+context.closePath();
+context.lineWidth = 1;
+context.fillStyle = 'rgba(2,254,255,0.3)';
+context.fill();
+context.strokeStyle = 'transparent';
+context.stroke();
+</script>
+
+<canvas id="particle1_1" width="40" height="510"></canvas> <script>
+var canvas = document.getElementById('particle1_1');
+var context = canvas.getContext('2d');
+
+context.beginPath();
+context.lineTo(0, 0);
+context.lineTo(10, 15);
+context.lineTo(10, 65);
+context.lineTo(0, 80);
+context.lineTo(0, 0);
+
+context.closePath();
+context.lineWidth = 1;
+context.fillStyle = 'rgba(2,254,255,0.3)';
+context.fill();
+context.strokeStyle = 'transparent';
+context.stroke();
+</script>
+
+<canvas id="particle1_2" width="40" height="510"></canvas> <script>
+var canvas = document.getElementById('particle1_2');
+var context = canvas.getContext('2d');
+
+context.beginPath();
+context.lineTo(10, 80);
+context.lineTo(0, 65);
+context.lineTo(0, 15);
+context.lineTo(10, 0);
+context.lineTo(10, 80);
+
+context.closePath();
+context.lineWidth = 1;
+context.fillStyle = 'rgba(2,254,255,0.3)';
+context.fill();
+context.strokeStyle = 'transparent';
+context.stroke();
+</script>
+
+<div id="particle1_3">
+  > > > >
+</div>
+
+<div id="particle2" onclick="LoadAll()">▶<br/>▶<br/>▶</div>
+<div id="particle3" class="vline"/>
+<div id="particle4" class="vline"/>
+<div id="particle5" class="vline"/>
+<div id="particle6" class="vline"/>
+<div id="particle7" class="vline"/>
+<div id="particle8" class="vline"/>
+<div id="particle9" class="vline">
+
+<!--
+ 
+<body>
+<div class="clas">
+  <p hidden>J.A.R.V.I.S</p>
+<div class="h">
+  -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
