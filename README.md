@@ -71,17 +71,18 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
   Dicas de como melhorar os estudos, concentração e absorção do conteúdo.
 
 ## BackLog
-![06](https://user-images.githubusercontent.com/74839828/115132060-315c9900-9fd3-11eb-8f78-f168d9d02d60.jpg)
 
-![05](https://user-images.githubusercontent.com/74839828/115132056-2a358b00-9fd3-11eb-971a-ab7171b08c87.jpg)
+![WhatsApp Image 2021-05-14 at 19 34 17](https://user-images.githubusercontent.com/74839828/118340835-5a4d4c80-b4f3-11eb-940e-53eabdce9b2a.jpeg)
 
-![04](https://user-images.githubusercontent.com/74839828/115132049-20ac2300-9fd3-11eb-831e-719e6684be39.jpg)
+![WhatsApp Image 2021-05-14 at 19 34 16 (1)](https://user-images.githubusercontent.com/74839828/118340850-62a58780-b4f3-11eb-9550-3d68ce483232.jpeg)
 
-![03](https://user-images.githubusercontent.com/74839828/115132040-1722bb00-9fd3-11eb-96f8-cf7258028ef4.jpg)
+![WhatsApp Image 2021-05-14 at 19 34 16](https://user-images.githubusercontent.com/74839828/118340851-633e1e00-b4f3-11eb-9962-bf98aeab89ff.jpeg)
 
-![02](https://user-images.githubusercontent.com/74839828/115132001-db87f100-9fd2-11eb-8acc-4e2ad0e2b94c.jpg)
+![WhatsApp Image 2021-05-14 at 19 34 17 (1)](https://user-images.githubusercontent.com/74839828/118340852-633e1e00-b4f3-11eb-8447-a31773605a2a.jpeg)
 
-![01](https://user-images.githubusercontent.com/74839828/115131973-b4c9ba80-9fd2-11eb-984c-9fc29aa03394.jpg)
+![WhatsApp Image 2021-05-14 at 19 34 15](https://user-images.githubusercontent.com/74839828/118340853-63d6b480-b4f3-11eb-8187-8a805cd900ca.jpeg)
+
+![WhatsApp Image 2021-05-14 at 19 34 14](https://user-images.githubusercontent.com/74839828/118340859-66d1a500-b4f3-11eb-8721-8de56d406928.jpeg)
 
 
 ## Burndown
