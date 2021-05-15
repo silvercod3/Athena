@@ -72,17 +72,21 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 ## BackLog
 
-![WhatsApp Image 2021-05-14 at 19 34 17](https://user-images.githubusercontent.com/74839828/118340835-5a4d4c80-b4f3-11eb-940e-53eabdce9b2a.jpeg)
+![WhatsApp Image 2021-05-14 at 19 34 17](https://user-images.githubusercontent.com/74839828/118345595-f7b47a80-b50b-11eb-92ca-fd835c18181a.jpeg)
 
-![WhatsApp Image 2021-05-14 at 19 34 16 (1)](https://user-images.githubusercontent.com/74839828/118340850-62a58780-b4f3-11eb-9550-3d68ce483232.jpeg)
 
-![WhatsApp Image 2021-05-14 at 19 34 16](https://user-images.githubusercontent.com/74839828/118340851-633e1e00-b4f3-11eb-9962-bf98aeab89ff.jpeg)
+![invertexto (2)](https://user-images.githubusercontent.com/74839828/118345599-01d67900-b50c-11eb-95c8-c5141a52a95c.png)
 
-![WhatsApp Image 2021-05-14 at 19 34 17 (1)](https://user-images.githubusercontent.com/74839828/118340852-633e1e00-b4f3-11eb-8447-a31773605a2a.jpeg)
+![invertexto (3)](https://user-images.githubusercontent.com/74839828/118345600-0307a600-b50c-11eb-9fc9-6d4eceec3cb0.png)
 
-![WhatsApp Image 2021-05-14 at 19 34 15](https://user-images.githubusercontent.com/74839828/118340853-63d6b480-b4f3-11eb-8187-8a805cd900ca.jpeg)
+![invertexto (4)](https://user-images.githubusercontent.com/74839828/118345601-0307a600-b50c-11eb-9572-be129d54433e.png)
 
-![WhatsApp Image 2021-05-14 at 19 34 14](https://user-images.githubusercontent.com/74839828/118340859-66d1a500-b4f3-11eb-8721-8de56d406928.jpeg)
+![invertexto](https://user-images.githubusercontent.com/74839828/118345602-03a03c80-b50c-11eb-8f86-628bba0a016e.png)
+
+![invertexto (1)](https://user-images.githubusercontent.com/74839828/118345603-03a03c80-b50c-11eb-935b-a575e5846812.png)
+
+![invertexto (5)](https://user-images.githubusercontent.com/74839828/118345606-06029680-b50c-11eb-968c-890d286c60c2.png)
+
 
 
 ## Burndown
