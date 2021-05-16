@@ -91,7 +91,7 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 ## Burndown
 
-![burndown_3](https://user-images.githubusercontent.com/74839828/118416889-163f8080-b688-11eb-9381-8d19307ddb18.jpeg)
+![burndown_3](https://user-images.githubusercontent.com/74839828/118417083-f066ab80-b688-11eb-8be8-b4f991389b54.jpeg)
 
 ## Tecnologias Utilizadas
 
