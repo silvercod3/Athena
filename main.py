@@ -7,6 +7,8 @@ import os
 import pyttsx3
 import config
 from tkinter import *
+from pydub import AudioSegment
+from pydub import effects
 from pyttsx3.drivers import sapi5
 
 error = random.choice(config.lista_erros)
@@ -17,11 +19,6 @@ class person:
 
     def setName(self, name):
         self.name = name
-        # speak('Olá, quem está falando ?')
-        # name = record_audio().split(" ")
-        # new_name = name[0]
-        # with open("nomes.txt","a") as arqv:
-        #     arqv.write(new_name)
 
 
 class asis:
@@ -40,11 +37,13 @@ def there_exists(terms):
 def speak(text):
     voices = engine.getProperty("voices")
     engine.setProperty("voice", voices[0].id)
-    engine.setProperty('rate', 235)
+    engine.setProperty('rate', 255)
     engine.say(text)
     engine.runAndWait()
+    print(asis_obj.name + ":", text)
 
 
+engine = pyttsx3.init()
 r = sr.Recognizer()  # initialise a recogniser
 
 
@@ -60,26 +59,47 @@ def record_audio(ask=""):
             try:
                 voice_data = r.recognize_google(audio, language='pt-BR')
             except sr.UnknownValueError:
+                time.sleep(10)
+                print('Deu erro aquiiiiiii')
                 speak(error)
+                exit()
             except sr.RequestError:
                 speak('Desculpe, serviço indisponível no momento')
             except sr.WaitTimeoutError:
                 print('Serviço indisponível no momento, tente novamente !')
+                exit()
             print(">>", voice_data.lower())
             return voice_data.lower()
-    except Exception:
-        speak('não escutei a sua voz, por favor tente novamente !')
+    except TypeError:
+        speak('tem alguém aí ?')
+        time.sleep(6)
+        exit()
+    except sr.WaitTimeoutError:
+        speak('tem alguém aí ?')
+        time.sleep(5)
+        exit()
+
+
+def speed_change(sound, speed=1.0):
+    sound_with_altered_frame_rate = sound._spawn(sound.raw_data, overrides={
+        "frame_rate": int(sound.frame_rate * speed)
+    })
+    return sound_with_altered_frame_rate.set_frame_rate(sound.frame_rate)
 
 
 def speak(audio_string):
     audio_string = str(audio_string)
-    tts = gTTS(text=audio_string, lang='pt')
+    tts = gTTS(text=audio_string, lang='pt', slow=False)
     r = random.randint(1, 20000000)
     audio_file = 'audio' + str(r) + '.mp3'
     tts.save(audio_file)
-    playsound.playsound(audio_file)
-    print(asis_obj.name + ":", audio_string)
+    sound = AudioSegment.from_file(audio_file)
+    fast_sound = speed_change(sound, 1.6)
+    fast_sound.export(audio_file[:-4] + 'new.mp3', format='mp3')
+    playsound.playsound('audio' + str(r) + 'new.mp3')
     os.remove(audio_file)
+    os.remove('audio' + str(r) + 'new.mp3')
+    print(asis_obj.name + ":", audio_string)
 
 
 def respond(voice_data):
@@ -90,17 +110,17 @@ def respond(voice_data):
         greet = greetings[random.randint(0, len(greetings) - 1)]
         speak(greet)
 
+    if there_exists(["meu nome é", "eu me chamo", "sou a", "sou o", "me chamo"]):
+        person_name = voice_data.split(" ")[-1].strip()
+        speak(f"Como eu posso te ajudar, {person_name}")
+        person_obj.setName(person_name)
+
     if there_exists(["qual é o seu nome", "qual é teu nome", "me diga seu nome", "qual é seu nome", "seu nome",
                      "teu nome"]):
         if person_obj.name:
             speak(f"meu nome é {asis_obj.name}, muito prazer {person_obj.name}")
         else:
             speak("meu nome é Athena. E como você se chama?")
-
-    if there_exists(["meu nome é", "eu me chamo", "sou a", "sou o", "me chamo", "é o", "é a"]):
-        person_name = voice_data.split(" ")[-1].strip()
-        speak(f"Como eu posso te ajudar, {person_name}")
-        person_obj.setName(person_name)
 
     if there_exists(["como você está", "tudo bem com você", "tudo bem"]):
         speak(f"Estou muito bem, obrigado por perguntar,  {person_obj.name}")
@@ -145,29 +165,40 @@ def respond(voice_data):
 
     if there_exists(["athena agendar data", "agende uma data", "marque uma prova", "marque um trabalho"
                         , "agende uma prova", "agende um trabalho", "marcar trabalho"]):
-        with open("date_save.csv", "a") as arquivo:
+        mes = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
+               "setembro", "outubro", "novembro", "dezembro"]
+
+        with open("date_save.csv", "a+", encoding='utf-8') as arquivo:
             speak("Qual o Título do evento ?")
             x = record_audio()
             while True:
                 try:
-                    speak(f"ok, qual é o dia e o mês do evento ?")
-                    date_event = record_audio()
-                    speak(
-                        f"Ok, voce agendou um '{x}' para o dia {int(date_event.split()[0])} do {int(date_event.split()[2])} ")
+                    speak(f"ok, quando é o evento ?")
+                    date_event = record_audio().strip().split()
+                    if date_event[2] not in mes:
+                        if date_event[2].isnumeric() not in range(1, 13):
+                            speak('Não encontrei esse mês, vamos tentar novamente !')
+                            time.sleep(2)
+                            continue
                     break
                 except ValueError:
                     speak(f"Não entendi muito bem ,poderia repetir por gentileza")
-                    time.sleep(1)
+                    time.sleep(2)
                     continue
                 except IndexError:
-                    speak(f"Não entendi muito bem ,poderia repetir por gentileza")
-                    time.sleep(1)
+                    speak(f"Não entendi muito bem ")
+                    time.sleep(2)
                     continue
-            arquivo.write(
-                f"Título: '{x}' para o dia {int(date_event.split()[0])}/{int(date_event.split()[2])} \n")
-    if there_exists(["cadastrar matéria", "nova matérica", "nova materia", "cadastrar aula"]):
+            if date_event[2].isnumeric():
+                speak(f"Voce agendou um '{x}' para o dia {date_event[0]} do {date_event[2]} ")
+                arquivo.write(f"Título: '{x}' para o dia {date_event[0]}/{date_event[2]} \n")
+            if date_event[2].isalpha():
+                speak(f"Voce agendou um '{x}' para o dia {date_event[0]} de {date_event[2]} ")
+                arquivo.write(f"Título: '{x}' para o dia {date_event[0]} de {date_event[2]} \n")
+    if there_exists(["cadastrar matéria", "nova matéria", "nova materia", "cadastrar aula"]):
         try:
-            semana = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "sábado"]
+            semana = ["segunda", "terça", "quarta", "quinta", "sexta", "sabado", "sábado",
+                      "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira"]
             materias = []
             dias_semana = []
             horario_materia = []
@@ -175,11 +206,12 @@ def respond(voice_data):
             try:
                 while True:
                     speak("Para qual dia da semana ?")
-                    semana_dia = record_audio().strip().split()[0]
+                    semana_dia = record_audio().strip()
                     if semana_dia not in semana:
-                        speak('Não encontrei esse dia no meu banco de dados, repita por gentileza')
+                        speak('Não encontrei esse dia no meu banco de dados, repita por gentileza em alguns instantes')
+                        time.sleep(2)
                         continue
-                    if semana_dia != "sabado":
+                    if semana_dia != "sabado" and semana_dia != "segunda-feira" and semana_dia != "terça-feira" and semana_dia != "quarta-feira" and semana_dia != "quinta-feira" and semana_dia != "sexta-feira":
                         x = semana_dia + "-feira"
                         dias_semana.append(x)
                     else:
@@ -211,7 +243,7 @@ def respond(voice_data):
                                 horario_final = record_audio().strip().replace(" ", ":").replace(" e ", ":")
                                 horario_materia.append(f"{horario_inicial}-{horario_final}")
                                 try:
-                                    with open("aulas.txt", "a") as arquivo:
+                                    with open("aulas.txt", "a+", encoding='utf-8') as arquivo:
                                         arquivo.write(f'Dia: {dias_semana[posi]} '
                                                       f'Aulas: {materias[pos]} = horario: {horario_materia[pos]} \n')
                                 except Exception as error:
@@ -233,11 +265,12 @@ if __name__ == '__main__':
     time.sleep(1)
 
     config.intro()
-    config.email()
+    # config.email()
     asis_obj = asis()
     asis_obj.name = 'Athena'
     person_obj = person()
-    speak("Olá tudo bem ? Quem está falando comigo ?")
+    speak("Olá, quem está falando comigo ?")
+
     person_obj.name = ""
     engine = pyttsx3.init()
     while 1:
