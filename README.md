@@ -96,6 +96,11 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 ## Tecnologias Utilizadas
 
 - Python
+- JavaScript
+- SCSS
+- HTML
+- CSS
+- pydub
 - Visual Studio Code
 - PyCharm
 - Tkinter
