@@ -72,7 +72,7 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 ## BackLog
 
-![Backlog do produto](https://user-images.githubusercontent.com/77200265/120875849-52c61400-c584-11eb-9ab7-0affd5bad717.png)
+![Backlog do produto](https://user-images.githubusercontent.com/77200265/120876150-7fc6f680-c585-11eb-9c0e-5801d00b1885.png)
 
 ![Desenvolvimento final de interface gráfica simples](https://user-images.githubusercontent.com/77200265/120875855-58235e80-c584-11eb-8998-8dcb559bf37f.png)
 
