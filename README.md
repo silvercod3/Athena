@@ -72,15 +72,15 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 ## BackLog
 
-![Backlog do produto](https://user-images.githubusercontent.com/77200265/120876150-7fc6f680-c585-11eb-9c0e-5801d00b1885.png)
+<img src="https://user-images.githubusercontent.com/77200265/120876150-7fc6f680-c585-11eb-9c0e-5801d00b1885.png" width="540" height="340" />
 
-![Desenvolvimento final de interface gráfica simples](https://user-images.githubusercontent.com/77200265/120875855-58235e80-c584-11eb-8998-8dcb559bf37f.png)
+<img src="https://user-images.githubusercontent.com/77200265/120875855-58235e80-c584-11eb-8998-8dcb559bf37f.png" width="540" height="340" />
 
-![Integração de banco de dados com funções](https://user-images.githubusercontent.com/77200265/120875858-5a85b880-c584-11eb-87d9-a4b1b6fed61d.png)
+<img src="https://user-images.githubusercontent.com/77200265/120875858-5a85b880-c584-11eb-87d9-a4b1b6fed61d.png" width="540" height="340" />
 
-![Integração de interface com funções](https://user-images.githubusercontent.com/77200265/120875861-5d80a900-c584-11eb-9b55-31886f073e40.png)
+<img src="https://user-images.githubusercontent.com/77200265/120875861-5d80a900-c584-11eb-9b55-31886f073e40.png" width="540" height="340" />
 
-![Otimzação de Imersão](https://user-images.githubusercontent.com/77200265/120875863-65404d80-c584-11eb-8d8f-1b0a85e460cb.png)
+<img src="https://user-images.githubusercontent.com/77200265/120875863-65404d80-c584-11eb-8d8f-1b0a85e460cb.png" width="540" height="340" />
 
 
 
