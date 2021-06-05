@@ -72,20 +72,17 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 ## BackLog
 
-![WhatsApp Image 2021-05-14 at 19 34 17](https://user-images.githubusercontent.com/74839828/118345595-f7b47a80-b50b-11eb-92ca-fd835c18181a.jpeg)
+![Backlog do produto](https://user-images.githubusercontent.com/77200265/120875849-52c61400-c584-11eb-9ab7-0affd5bad717.png)
+
+![Desenvolvimento final de interface gráfica simples](https://user-images.githubusercontent.com/77200265/120875855-58235e80-c584-11eb-8998-8dcb559bf37f.png)
+
+![Integração de banco de dados com funções](https://user-images.githubusercontent.com/77200265/120875858-5a85b880-c584-11eb-87d9-a4b1b6fed61d.png)
+
+![Integração de interface com funções](https://user-images.githubusercontent.com/77200265/120875861-5d80a900-c584-11eb-9b55-31886f073e40.png)
+
+![Otimzação de Imersão](https://user-images.githubusercontent.com/77200265/120875863-65404d80-c584-11eb-8d8f-1b0a85e460cb.png)
 
 
-![invertexto (2)](https://user-images.githubusercontent.com/74839828/118345599-01d67900-b50c-11eb-95c8-c5141a52a95c.png)
-
-![invertexto (3)](https://user-images.githubusercontent.com/74839828/118345600-0307a600-b50c-11eb-9fc9-6d4eceec3cb0.png)
-
-![invertexto (4)](https://user-images.githubusercontent.com/74839828/118345601-0307a600-b50c-11eb-9572-be129d54433e.png)
-
-![invertexto](https://user-images.githubusercontent.com/74839828/118345602-03a03c80-b50c-11eb-8f86-628bba0a016e.png)
-
-![invertexto (1)](https://user-images.githubusercontent.com/74839828/118345603-03a03c80-b50c-11eb-935b-a575e5846812.png)
-
-![invertexto (5)](https://user-images.githubusercontent.com/74839828/118345606-06029680-b50c-11eb-968c-890d286c60c2.png)
 
 
 
