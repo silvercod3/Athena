@@ -28,15 +28,9 @@ Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github]
 
 Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
 
-Beatriz Medeiros ([Linkedin](https://www.linkedin.com/in/beatriz-medeiros-a98396202/), [Github](https://github.com/beamedeiros))
-
-Guilherme Akinyele ([Linkedin](https://www.linkedin.com/in/guilherme-akinyele), [Github](https://github.com/gui-akinyele))
-
 Guilherme Rodolfo ([Linkedin](https://www.linkedin.com/in/guilherme-rodolfo-5686601a3/), [Github](https://github.com/cabeloko))
 
 Igor Ribeiro ([Linkedin](https://www.linkedin.com/in/igor-ribeiro-8571a6210/), [Github](https://github.com/IgorRibeiro-S)) 
-
-Joice Elen ([Linkedin](https://www.linkedin.com/in/joice-elen-2a6309207/), [Github](https://github.com/jojoka1))
 
 Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
 
@@ -84,11 +78,10 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 
 
 
-
-
 ## Burndown
 
-![burndown_3](https://user-images.githubusercontent.com/74839828/118417083-f066ab80-b688-11eb-8be8-b4f991389b54.jpeg)
+![Burndown Sprint 4](https://user-images.githubusercontent.com/77200265/120909239-6edfb900-c649-11eb-8f72-4036f7996466.jpg)
+
 
 ## Tecnologias Utilizadas
 
