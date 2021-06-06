@@ -93,10 +93,6 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 ## Tecnologias Utilizadas
 
 - Python
-- JavaScript
-- SCSS
-- HTML
-- CSS
 - pydub
 - Visual Studio Code
 - PyCharm
@@ -105,7 +101,7 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 - PyAudio
 - pyttsx3
 - SQLite3
-- ismtplib 
+- ismtplib
 - email.mime.text
 - gtts
 - playsound
