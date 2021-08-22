@@ -20,11 +20,7 @@ Com o propósito de trazer para os estudantes em geral uma forma mais centraliza
 
 ## Time
 
-**Scrum Master:**  
-
 Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github](https://github.com/lara-leal))
-
-**Devs:**
 
 Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
 
@@ -64,23 +60,8 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 - Dicas:
   Dicas de como melhorar os estudos, concentração e absorção do conteúdo.
 
-## BackLog
-
-<img src="https://user-images.githubusercontent.com/77200265/120876150-7fc6f680-c585-11eb-9c0e-5801d00b1885.png" width="540" height="340" />
-
-<img src="https://user-images.githubusercontent.com/77200265/120875855-58235e80-c584-11eb-8998-8dcb559bf37f.png" width="540" height="340" />
-
-<img src="https://user-images.githubusercontent.com/77200265/120875858-5a85b880-c584-11eb-87d9-a4b1b6fed61d.png" width="540" height="340" />
-
-<img src="https://user-images.githubusercontent.com/77200265/120875861-5d80a900-c584-11eb-9b55-31886f073e40.png" width="540" height="340" />
-
-<img src="https://user-images.githubusercontent.com/77200265/120875863-65404d80-c584-11eb-8d8f-1b0a85e460cb.png" width="540" height="340" />
 
 
-
-## Burndown
-
-![Burndown Sprint 4](https://user-images.githubusercontent.com/77200265/120909239-6edfb900-c649-11eb-8f72-4036f7996466.jpg)
 
 
 ## Tecnologias Utilizadas
