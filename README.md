@@ -10,7 +10,7 @@ Tudo isso acarreta na dificuldade em conciliar a vida acadêmica com as demais �
 
 Percebemos então que o tempo precisa ser um aliado do estudante, a fim de motivá-lo a prosseguir até alcançar sua meta. Mas como auxiliá-lo a ter seu horários otimizados? Como ajudá-lo a saber seus prazos, prioridades e onde seu tempo será gasto da melhor forma?
 
-
+##
 ## 👥 Equipe Silvercode
 
 - Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
