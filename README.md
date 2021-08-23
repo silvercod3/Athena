@@ -37,28 +37,28 @@ Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187)
 Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição de cada:
 
 - Cronograma de aulas:
-  Armazena horários de aulas cadastrados pelo(a) estudante, para facilitar controle e organização de sua agenda;
+  armazena horários de aulas cadastrados pelo(a) estudante, para facilitar controle e organização de sua agenda;
   
 - Calendário acadêmico:
-  Permite cadastro de datas de provas, trabalhos e qualquer ocasião importante para o estudante, com notificações prévias;
+  permite cadastro de datas de provas, trabalhos e qualquer ocasião importante para o estudante, com notificações prévias;
   
 - Planos de estudos:
-  A Athena fornece planos de estudos editáveis, de acordo com a meta do estudante;
+  a Athena fornece planos de estudos editáveis, de acordo com a meta do estudante;
   
 - Notificações de estudos:
-  Alertas lembrando o(a) estudante que chegou a hora de estudar (via pop-up e e-mail);
+  alertas lembrando o(a) estudante que chegou a hora de estudar (via pop-up e e-mail);
 
 - Cálculo de médias:
-  Permite o(a) estudante conferir de forma fácil como estão indo suas notas no semestre;
+  permite o(a) estudante conferir de forma fácil como estão indo suas notas no semestre;
   
 - Controle de faltas:
-    Para evitar uma reprovação, alerta o(a) estudante sobre quantas faltas ainda podem ser registradas (com contagem regressiva, de acordo com valor previamente cadastrado pelo(a) estudante);
+  para evitar uma reprovação, alerta o(a) estudante sobre quantas faltas ainda podem ser registradas (com contagem regressiva, de acordo com valor previamente cadastrado pelo(a) estudante);
   
 - Dicas:
-  Dicas sobre como melhorar a efetividade dos estudos, concentração, absorção de conteúdo e organização;
+  dicas sobre como melhorar a efetividade dos estudos, concentração, absorção de conteúdo e organização;
   
 - Metas de estudos e gráficos de desempenho:
-  Planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
+  planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
 
 
 
