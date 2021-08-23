@@ -2,7 +2,7 @@
 
 # ATHENA - ASSISTENTE DE ESTUDOS
 
-## Introdução
+## 📃 Introdução
 
 Com a quantidade de informação pelas quais somos bombardeados constantemente no nosso dia a dia, por diversas vezes acabamos perdendo algum prazo, data de entrega de trabalhos ou até mesmo confundir as atividades a serem realizadas. Quem nunca passou por alguma situação assim?
 
@@ -24,7 +24,7 @@ Percebemos então que o tempo precisa ser um aliado do estudante, a fim de motiv
 - Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
 
 
-## Visão do projeto
+## 📌 Visão do projeto
 
 Com o propósito de trazer para os estudantes em geral uma forma mais centralizada e organizada de cuidar da vida acadêmica e se manter atualizado em suas atividades, criamos a Athena- Assistente Pessoal de Estudos. O seu diferencial é reunir diversas ferramentas úteis em um único lugar.
 
@@ -56,12 +56,16 @@ Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição 
   
 - Metas de estudos e gráficos de desempenho:
   planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
+  
 
-## Backlog do Produto
+## 📋 Backlog do Produto
 ![img](https://media.discordapp.net/attachments/819739682472329256/879154678976356442/backlog-athena.png)
 
-## Apresentação final 
+
+## 🏆 Apresentação final 
 [![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE)
+
+
 ## 💻 Tecnologias Utilizadas
 
 - Python
