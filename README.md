@@ -58,6 +58,7 @@ Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição 
   planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
   
 
+
 ## 📋 Backlog do Produto
 ![img](https://media.discordapp.net/attachments/819739682472329256/879154678976356442/backlog-athena.png)
 
