@@ -61,7 +61,7 @@ Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição 
 ![img](https://media.discordapp.net/attachments/819739682472329256/879154678976356442/backlog-athena.png)
 
 ## Apresentação final 
-[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE&t=2s)
+[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE)
 ## 💻 Tecnologias Utilizadas
 
 - Python
