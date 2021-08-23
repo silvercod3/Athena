@@ -84,8 +84,8 @@ Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição 
 
 
 ## 📅 Cronograma do projeto
-Sprint 1: 08/03/2021 à 28/03/2021
-Sprint 2: 29/03/2021 à 18/04/2021
-Sprint 3: 26/04/2021 à 16/05/2021
-Sprint 4: 17/05/2021 à 06/06/2021
-Apresentação final: 11/06/2021
+- Sprint 1: 08/03/2021 à 28/03/2021
+- Sprint 2: 29/03/2021 à 18/04/2021
+- Sprint 3: 26/04/2021 à 16/05/2021
+- Sprint 4: 17/05/2021 à 06/06/2021
+- Apresentação final: 11/06/2021
