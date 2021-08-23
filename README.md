@@ -65,7 +65,7 @@ Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
 ![img](https://media.discordapp.net/attachments/819739682472329256/879154274184097873/Backlog_Athena.png?width=764&height=507)
 
 ## Apresentação final 
-[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE)
 
 
 ## Tecnologias Utilizadas
