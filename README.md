@@ -20,13 +20,13 @@ Com o propósito de trazer para os estudantes em geral uma forma mais centraliza
 
 ## Time
 
-Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github](https://github.com/lara-leal))
-
 Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
 
 Guilherme Rodolfo ([Linkedin](https://www.linkedin.com/in/guilherme-rodolfo-5686601a3/), [Github](https://github.com/cabeloko))
 
 Igor Ribeiro ([Linkedin](https://www.linkedin.com/in/igor-ribeiro-8571a6210/), [Github](https://github.com/IgorRibeiro-S)) 
+
+Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github](https://github.com/lara-leal))
 
 Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
 
