@@ -1,7 +1,6 @@
 
 
 # Athena - Assistente Pessoal de Estudos
----
 
 ## 📃 Introdução
 
