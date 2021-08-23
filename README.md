@@ -18,22 +18,22 @@ Com o propósito de trazer para os estudantes em geral uma forma mais centraliza
 
 
 
-## 👥 Time
+## Time
 
-- Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
+Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
 
-- Guilherme Rodolfo ([Linkedin](https://www.linkedin.com/in/guilherme-rodolfo-5686601a3/), [Github](https://github.com/cabeloko))
+Guilherme Rodolfo ([Linkedin](https://www.linkedin.com/in/guilherme-rodolfo-5686601a3/), [Github](https://github.com/cabeloko))
 
-- Igor Ribeiro ([Linkedin](https://www.linkedin.com/in/igor-ribeiro-8571a6210/), [Github](https://github.com/IgorRibeiro-S)) 
+Igor Ribeiro ([Linkedin](https://www.linkedin.com/in/igor-ribeiro-8571a6210/), [Github](https://github.com/IgorRibeiro-S)) 
 
-- Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github](https://github.com/lara-leal))
+Lara Leal ([Linkedin](https://www.linkedin.com/in/lara-leal-527b7020a), [Github](https://github.com/lara-leal))
 
-- Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
+Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187), [Github](https://github.com/ludmila-chagas))
 
 
 
-## 👩‍💼 O que a Athena pode fazer por você?
- 
+## O que a Athena pode fazer por você?
+
 Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição de cada:
 
 - Cronograma de aulas:
@@ -60,7 +60,11 @@ Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição 
 - Metas de estudos e gráficos de desempenho:
   planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
 
+## Backlog do Produto
+![img](https://media.discordapp.net/attachments/819739682472329256/879154678976356442/backlog-athena.png)
 
+## Apresentação final 
+[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE&t=2s)
 
 ## Tecnologias Utilizadas
 
