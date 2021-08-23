@@ -9,6 +9,7 @@ Com a quantidade de informação pelas quais somos bombardeados constantemente n
 Tudo isso acarreta na dificuldade em conciliar a vida acadêmica com as demais áreas, como profissional, social e até familiar. Como consequência ganhamos um aumento no nível de estresse que pode por muitas vezes prejudicar o desempenho do indivíduo em todos os âmbitos citados anteriormente e, no pior dos cenários, causar a desistência dos estudos.
 
 Percebemos então que o tempo precisa ser um aliado do estudante, a fim de motivá-lo a prosseguir até alcançar sua meta. Mas como auxiliá-lo a ter seu horários otimizados? Como ajudá-lo a saber seus prazos, prioridades e onde seu tempo será gasto da melhor forma?
+---
 
 
 ## 👥 Equipe Silvercode
