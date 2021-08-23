@@ -18,7 +18,7 @@ Com o propósito de trazer para os estudantes em geral uma forma mais centraliza
 
 
 
-## 👩‍💻👨‍💻 Time
+## 👥 Time
 
 - Augusto Torres ([Linkedin](https://www.linkedin.com/in/augusto-torres-7919881b9/), [Github](https://github.com/MrZeroLeft))
 
