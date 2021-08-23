@@ -34,38 +34,32 @@ Ludmila Chagas ([Linkedin](https://www.linkedin.com/in/ludmila-chagas-273548187)
 
 ## O que a Athena pode fazer por você?
 
-Abaixo estão as funcionalidades oferecidas com um breve detalhamento de cada:
+Abaixo estão listadas as funcionalidades oferecidas, com uma breve descrição de cada:
 
-- Horário de aulas:
-  Local para armazenar os horários em que o usuário deseja estudar;
+- Cronograma de aulas:
+  Armazena horários de aulas cadastrados pelo(a) estudante, para facilitar controle e organização de sua agenda;
   
-- Datas de provas e trabalhos:
-  Para maior controle da agenda acadêmica, com notificações;
+- Calendário acadêmico:
+  Permite cadastro de datas de provas, trabalhos e qualquer ocasião importante para o estudante, com notificações prévias;
   
 - Planos de estudos:
-  A Athena fornece um plano de estudos pré-montado de acordo com a meta do usuário, informando quais matérias são interessantes para estudar. Também será editável;
-
-- Metas de estudos:
-  Planejamento de horas a estudar semanal ou mensal, que auxilia no progresso;
-
-- Calculo de medias:
-  Permite conferir de forma fácil como está indo as notas no semestre;
-  
-- Controle de faltas:
-  Controle de faltas para evitar uma reprovação, adicionado avisos de quantas faltas o usuário ainda pode ter;
+  A Athena fornece planos de estudos editáveis, de acordo com a meta do estudante;
   
 - Notificações de estudos:
-  Avisos lembrando que chegou a hora de estudar;
+  Alertas lembrando o(a) estudante que chegou a hora de estudar (via pop-up e e-mail);
+
+- Cálculo de médias:
+  Permite o(a) estudante conferir de forma fácil como estão indo suas notas no semestre;
+  
+- Controle de faltas:
+    Para evitar uma reprovação, alerta o(a) estudante sobre quantas faltas ainda podem ser registradas (com contagem regressiva, de acordo com valor previamente cadastrado pelo(a) estudante);
   
 - Dicas:
-  Dicas de como melhorar os estudos, concentração e absorção do conteúdo.
+  Dicas sobre como melhorar a efetividade dos estudos, concentração, absorção de conteúdo e organização;
+  
+- Metas de estudos e gráficos de desempenho:
+  Planejamento de horas a estudar semanal ou mensal, que auxilia no progresso, juntamente com visualização do desempenho através de gráficos.
 
-
-## Backlog do Produto 
-![img](https://media.discordapp.net/attachments/819739682472329256/879154274184097873/Backlog_Athena.png?width=764&height=507)
-
-## Apresentação final 
-[![Watch the video](https://img.freepik.com/vetores-gratis/video-player-modelo-de-design-janela-de-transmissao-ao-vivo-de-midia-social-conceito-de-jogador_49683-4498.jpg?size=626&ext=jpg)](https://www.youtube.com/watch?v=E_I9MvQs9BE)
 
 
 ## Tecnologias Utilizadas
